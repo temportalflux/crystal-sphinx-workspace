@@ -1,0 +1,75 @@
+{
+	"folders": [
+		{
+			"name": "Workspace",
+			"path": "."
+		},
+		{
+			"name": "Temportal Engine",
+			"path": "crystal-sphinx/temportal-engine/engine"
+		},
+		{
+			"name": "Temportal Engine (Editor)",
+			"path": "crystal-sphinx/temportal-engine/editor"
+		},
+		{
+			"name": "Crystal Sphinx | Core",
+			"path": "crystal-sphinx/core"
+		},
+		{
+			"name": "Crystal Sphinx | Editor",
+			"path": "crystal-sphinx/editor"
+		},
+		{
+			"name": "Crystal Sphinx | Plugins | Vanilla",
+			"path": "plugins/vanilla"
+		},
+		{
+			"name": "Crystal Sphinx | Runtime | Game",
+			"path": "game"
+		},
+		{
+			"name": "Crystal Sphinx | Runtime | Editor",
+			"path": "editor"
+		},
+		{
+			"name": "Boid (Demo)",
+			"path": "crystal-sphinx/temportal-engine/demo/boid"
+		},
+		{
+			"name": "Boid (Editor)",
+			"path": "crystal-sphinx/temportal-engine/demo/boid-editor"
+		},
+		{
+			"name": "UI (Demo)",
+			"path": "crystal-sphinx/temportal-engine/demo/ui"
+		},
+		{
+			"name": "UI (Editor)",
+			"path": "crystal-sphinx/temportal-engine/demo/ui-editor"
+		},
+		{
+			"name": "Triangle (Demo)",
+			"path": "crystal-sphinx/temportal-engine/demo/triangle"
+		},
+		{
+			"name": "Triangle (Editor)",
+			"path": "crystal-sphinx/temportal-engine/demo/triangle-editor"
+		},
+		{
+			"name": "Input Actions",
+			"path": "crystal-sphinx/temportal-engine/input-actions"
+		},
+		{
+			"name": "Vulkan",
+			"path": "crystal-sphinx/temportal-engine/vulkan-rs"
+		}
+	],
+	"settings": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"task.quickOpen.history": 0,
+		"task.quickOpen.detail": false,
+		"workspaceExplorer.workspaceStorageDirectory": "C:\\Workspaces\\rust"
+	}
+}

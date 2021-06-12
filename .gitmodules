@@ -1,0 +1,6 @@
+[submodule "crystal-sphinx"]
+	path = crystal-sphinx
+	url = git@github.com:temportalflux/crystal-sphinx.git
+[submodule "plugins/vanilla"]
+	path = plugins/vanilla
+	url = git@github.com:temportalflux/crystal-sphinx-vanilla.git
