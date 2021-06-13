@@ -57,6 +57,14 @@
 			"path": "crystal-sphinx/temportal-engine/demo/triangle/editor"
 		},
 		{
+			"name": "Chat Room | Demo",
+			"path": "crystal-sphinx/temportal-engine/demo/chat-room/demo"
+		},
+		{
+			"name": "Chat Room | Editor",
+			"path": "crystal-sphinx/temportal-engine/demo/chat-room/editor"
+		},
+		{
 			"name": "Input Actions",
 			"path": "crystal-sphinx/temportal-engine/input-actions"
 		},
