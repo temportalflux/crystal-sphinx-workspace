@@ -33,28 +33,28 @@
 			"path": "editor"
 		},
 		{
-			"name": "Boid (Demo)",
-			"path": "crystal-sphinx/temportal-engine/demo/boid"
+			"name": "Boid | Demo",
+			"path": "crystal-sphinx/temportal-engine/demo/boid/demo"
 		},
 		{
-			"name": "Boid (Editor)",
-			"path": "crystal-sphinx/temportal-engine/demo/boid-editor"
+			"name": "Boid | Editor",
+			"path": "crystal-sphinx/temportal-engine/demo/boid/editor"
 		},
 		{
-			"name": "UI (Demo)",
-			"path": "crystal-sphinx/temportal-engine/demo/ui"
+			"name": "UI | Demo",
+			"path": "crystal-sphinx/temportal-engine/demo/ui/demo"
 		},
 		{
-			"name": "UI (Editor)",
-			"path": "crystal-sphinx/temportal-engine/demo/ui-editor"
+			"name": "UI | Editor",
+			"path": "crystal-sphinx/temportal-engine/demo/ui/editor"
 		},
 		{
-			"name": "Triangle (Demo)",
-			"path": "crystal-sphinx/temportal-engine/demo/triangle"
+			"name": "Triangle | Demo",
+			"path": "crystal-sphinx/temportal-engine/demo/triangle/demo"
 		},
 		{
-			"name": "Triangle (Editor)",
-			"path": "crystal-sphinx/temportal-engine/demo/triangle-editor"
+			"name": "Triangle | Editor",
+			"path": "crystal-sphinx/temportal-engine/demo/triangle/editor"
 		},
 		{
 			"name": "Input Actions",
