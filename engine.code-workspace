@@ -57,6 +57,14 @@
 			"path": "crystal-sphinx/temportal-engine/demo/triangle/editor"
 		},
 		{
+			"name": "Audio | Demo",
+			"path": "crystal-sphinx/temportal-engine/demo/audio/demo"
+		},
+		{
+			"name": "Audio | Editor",
+			"path": "crystal-sphinx/temportal-engine/demo/audio/editor"
+		},
+		{
 			"name": "Chat Room | Demo",
 			"path": "crystal-sphinx/temportal-engine/demo/chat-room/demo"
 		},
