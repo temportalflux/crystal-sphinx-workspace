@@ -86,6 +86,7 @@
 		"editor.insertSpaces": false,
 		"task.quickOpen.history": 0,
 		"task.quickOpen.detail": false,
-		"workspaceExplorer.workspaceStorageDirectory": "C:\\Workspaces\\rust"
+		"workspaceExplorer.workspaceStorageDirectory": "C:\\Workspaces\\rust",
+		"editor.tabSize": 2
 	}
 }
