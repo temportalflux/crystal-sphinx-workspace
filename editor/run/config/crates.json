@@ -1,0 +1,16 @@
+{
+	"crates": {
+		"../../crystal-sphinx/temportal-engine/engine": {
+			"pak_destination": "../../game/run/paks"
+		},
+		"../../crystal-sphinx/core": {
+			"pak_destination": "../../game/run/paks"
+		},
+		"../../crystal-sphinx/temportal-engine/editor": {
+			"pak_destination": "paks"
+		},
+		"../../plugins/vanilla": {
+			"pak_destination": "../../game/run/paks"
+		}
+	}
+}
