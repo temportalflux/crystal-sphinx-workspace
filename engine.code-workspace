@@ -77,8 +77,16 @@
 			"path": "crystal-sphinx/temportal-engine/input-actions"
 		},
 		{
+			"name": "Socknet",
+			"path": "crystal-sphinx/temportal-engine/socknet"
+		},
+		{
 			"name": "Vulkan",
 			"path": "crystal-sphinx/temportal-engine/vulkan-rs"
+		},
+		{
+			"name": "Utilities",
+			"path": "crystal-sphinx/temportal-engine/utility"
 		}
 	],
 	"settings": {
