@@ -96,8 +96,6 @@ Singletons:
 		- Socknet::Socket should not be an object, but rather export the relevant queues.
 		- There should be a crossbeam channel to extract packets from the network thread, rather than an arc-tex vecdeque.
 			That unbounded crossbeam channel will be what the in-bundle will read from.
-		- 
-
 
 - network packet types (keeping track of what packet types are registered and how they are processed when received by the manager)
 	write:

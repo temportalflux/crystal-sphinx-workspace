@@ -4,12 +4,14 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Crystal Sphinx - Run Game",
+			"label": "Crystal Sphinx - Run Game - Server",
 			"command": "cargo",
 			"args": [
 				"run",
 				"--bin", "game",
-				"--", "-v"
+				"--", "-v",
+				"-server", "-port=25565",
+				"-logid=server"
 			],
 			"options": {
 				"env": {
@@ -20,13 +22,74 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Crystal Sphinx - Run Game (Profile)",
+			"label": "Crystal Sphinx - Run Game - ClientServer",
+			"command": "cargo",
+			"args": [
+				"run",
+				"--bin", "game",
+				"--", "-v",
+				"-server",
+				"-client", "-port=25565",
+				"-user=alex_cotos",
+				"-logid=cotos"
+			],
+			"options": {
+				"env": {
+					"RUST_BACKTRACE": "1"
+				},
+				"cwd": "run"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Crystal Sphinx - Run Game - Client 1",
+			"command": "cargo",
+			"args": [
+				"run",
+				"--bin", "game",
+				"--", "-v",
+				"-client", "-port=25566",
+				"-user=alice_c",
+				"-logid=client1"
+			],
+			"options": {
+				"env": {
+					"RUST_BACKTRACE": "1"
+				},
+				"cwd": "run"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Crystal Sphinx - Run Game - Client 1 (Profile)",
 			"command": "cargo",
 			"args": [
 				"run",
 				"--bin", "game",
 				"--features", "profile",
-				"--", "-v"
+				"--", "-v",
+				"-client", "-port=25566",
+				"-user=alice_c",
+				"-logid=client1"
+			],
+			"options": {
+				"env": {
+					"RUST_BACKTRACE": "1"
+				},
+				"cwd": "run"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Crystal Sphinx - Run Game - Client 2",
+			"command": "cargo",
+			"args": [
+				"run",
+				"--bin", "game",
+				"--", "-v",
+				"-client", "-port=25567",
+				"-user=bob_c",
+				"-logid=client2"
 			],
 			"options": {
 				"env": {
