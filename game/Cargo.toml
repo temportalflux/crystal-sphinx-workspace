@@ -10,5 +10,6 @@ edition = "2018"
 profile = ["crystal-sphinx/profile"]
 
 [dependencies]
+engine = { path = "../crystal-sphinx/temportal-engine/engine", package = "temportal-engine" }
 crystal-sphinx = { path = "../crystal-sphinx/core" }
 vanilla = { path = "../plugins/vanilla" }

@@ -1,4 +1,5 @@
-use crystal_sphinx::{engine::utility::VoidResult, plugin, run};
+use crystal_sphinx::{plugin, run};
+use engine::utility::VoidResult;
 
 fn main() -> VoidResult {
 	run(plugin::Config::default().with(vanilla::Plugin::default()))?;
