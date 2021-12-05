@@ -1,16 +1,25 @@
 {
 	"crates": {
-		"../../crystal-sphinx/core": {
-			"pak_destination": "../../game/run/paks"
+		"../../crystal-sphinx/temportal-engine/editor": {
+			"pak_destinations": [
+				"paks"
+			]
 		},
 		"../../crystal-sphinx/temportal-engine/engine": {
-			"pak_destination": "../../game/run/paks"
+			"pak_destinations": [
+				"../../game/run/paks",
+				"../../editor/run/paks"
+			]
 		},
 		"../../plugins/vanilla": {
-			"pak_destination": "../../game/run/paks"
+			"pak_destinations": [
+				"../../game/run/paks"
+			]
 		},
-		"../../crystal-sphinx/temportal-engine/editor": {
-			"pak_destination": "paks"
+		"../../crystal-sphinx/core": {
+			"pak_destinations": [
+				"../../game/run/paks"
+			]
 		}
 	}
 }
