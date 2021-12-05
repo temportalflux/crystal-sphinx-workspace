@@ -47,6 +47,7 @@
 			"args": [
 				"run",
 				"--bin", "game",
+				"--features", "debug",
 				"--", "-v",
 				"-client", "-port=25566",
 				"-user=alice_c",

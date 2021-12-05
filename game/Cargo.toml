@@ -8,6 +8,7 @@ edition = "2018"
 
 [features]
 profile = ["crystal-sphinx/profile"]
+debug = ["crystal-sphinx/debug"]
 
 [dependencies]
 engine = { path = "../crystal-sphinx/temportal-engine/engine", package = "temportal-engine" }
