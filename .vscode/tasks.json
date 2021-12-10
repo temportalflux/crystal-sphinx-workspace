@@ -31,6 +31,15 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "Open Docs",
+			"command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+			"args": [
+				"${workspaceFolder}/target/doc/temportal_engine/index.html"
+			],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
 			"label": "Run Tests",
 			"command": "cargo",
 			"args": [

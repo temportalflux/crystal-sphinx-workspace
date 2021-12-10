@@ -87,6 +87,10 @@
 		{
 			"name": "Utilities",
 			"path": "crystal-sphinx/temportal-engine/utility"
+		},
+		{
+			"name": "KDL Schema",
+			"path": "crystal-sphinx/temportal-engine/crates/kdl-schema"
 		}
 	],
 	"settings": {
