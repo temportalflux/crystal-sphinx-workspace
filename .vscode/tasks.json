@@ -7,7 +7,7 @@
 			"label": "Compile",
 			"command": "cargo",
 			"args": [
-				"build", "--all-features"
+				"build", "--features", "debug"
 			],
 			"group": "build",
 			"problemMatcher": []

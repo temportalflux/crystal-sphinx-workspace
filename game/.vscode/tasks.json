@@ -9,6 +9,7 @@
 			"args": [
 				"run",
 				"--bin", "game",
+				"--features", "debug",
 				"--", "-v",
 				"-server", "-port=25565",
 				"-logid=server"
