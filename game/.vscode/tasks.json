@@ -11,28 +11,8 @@
 				"--bin", "game",
 				"--features", "debug",
 				"--", "-v",
-				"-server", "-port=25565",
+				"-server", "-host_port=25565",
 				"-logid=server"
-			],
-			"options": {
-				"env": {
-					"RUST_BACKTRACE": "1"
-				},
-				"cwd": "run"
-			},
-			"problemMatcher": []
-		},
-		{
-			"label": "Crystal Sphinx - Run Game - ClientServer",
-			"command": "cargo",
-			"args": [
-				"run",
-				"--bin", "game",
-				"--", "-v",
-				"-server",
-				"-client", "-port=25565",
-				"-user=alex_cotos",
-				"-logid=cotos"
 			],
 			"options": {
 				"env": {
@@ -50,7 +30,7 @@
 				"--bin", "game",
 				"--features", "debug",
 				"--", "-v",
-				"-client", "-port=25566",
+				"-client", "-client_port=25566",
 				"-user=alice_c",
 				"-logid=client1"
 			],
@@ -70,7 +50,7 @@
 				"--bin", "game",
 				"--features", "profile",
 				"--", "-v",
-				"-client", "-port=25566",
+				"-client", "-client_port=25566",
 				"-user=alice_c",
 				"-logid=client1"
 			],
@@ -88,8 +68,9 @@
 			"args": [
 				"run",
 				"--bin", "game",
+				"--features", "debug",
 				"--", "-v",
-				"-client", "-port=25567",
+				"-client", "-client_port=25567",
 				"-user=bob_c",
 				"-logid=client2"
 			],
