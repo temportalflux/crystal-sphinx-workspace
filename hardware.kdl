@@ -16,7 +16,13 @@ station {
 
 station {
 	name "TemportalSurface"
-	graphics "Intel Iris Pro Graphics"
+	processor "Intel(R) Core(TM) i5-1035G4" {
+		ghz 1.10
+		cores 4
+	}
+	graphics "Intel(R) Iris(R) Pro Graphics" {
+		driver "26.20.100.7641"
+	}
 	display {
 		resolution 2560 1440
 		scale-factor 2.0
