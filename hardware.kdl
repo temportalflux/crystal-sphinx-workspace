@@ -1,0 +1,24 @@
+
+station {
+	name "TheTesseract"
+	processor "Intel(R) Core(TM) i7-6700" {
+		ghz 3.40
+		cores 4
+	}
+	graphics "NVIDIA GeForce RTX 3060" {
+		driver "30.0.14.7111"
+	}
+	display "Remote" {
+		resolution 1280 720
+		scale-factor 1.0
+	}
+}
+
+station {
+	name "TemportalSurface"
+	graphics "Intel Iris Pro Graphics"
+	display {
+		resolution 2560 1440
+		scale-factor 2.0
+	}
+}
