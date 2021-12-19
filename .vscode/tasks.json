@@ -4,6 +4,13 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "Setup",
+			"command": "python",
+			"args": [ "setup.py" ],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
 			"label": "Compile",
 			"command": "cargo",
 			"args": [
@@ -45,6 +52,12 @@
 			"args": [
 				"test"
 			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Open Profiler",
+			"command": "powershell",
+			"args": ["./tools/Tracy/Tracy.exe"],
 			"problemMatcher": []
 		}
 	]
