@@ -25,7 +25,7 @@
 			"label": "Generate Docs",
 			"command": "cargo",
 			"args": [
-				"doc"
+				"doc", "--document-private-items"
 			],
 			"group": "build",
 			"problemMatcher": []
@@ -45,12 +45,6 @@
 			"args": [
 				"test"
 			],
-			"problemMatcher": []
-		},
-		{
-			"label": "Open Optick",
-			"command": "powershell",
-			"args": ["./tools/Optick.exe"],
 			"problemMatcher": []
 		}
 	]

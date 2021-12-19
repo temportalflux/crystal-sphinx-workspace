@@ -43,26 +43,6 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Crystal Sphinx - Run Game - Client 1 (Profile)",
-			"command": "cargo",
-			"args": [
-				"run",
-				"--bin", "game",
-				"--features", "profile",
-				"--", "-v",
-				"-client", "-client_port=25566",
-				"-user=alice_c",
-				"-logid=client1"
-			],
-			"options": {
-				"env": {
-					"RUST_BACKTRACE": "1"
-				},
-				"cwd": "run"
-			},
-			"problemMatcher": []
-		},
-		{
 			"label": "Crystal Sphinx - Run Game - Client 2",
 			"command": "cargo",
 			"args": [
