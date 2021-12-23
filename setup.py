@@ -12,8 +12,8 @@ dependencies = [
 	"pyunpack", # for unpacking 7z archives
 	"patool", # pyunpack requirement
 ]
-for package in dependencies:
-	subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+#for package in dependencies:
+#	subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 print("Coping freetype dll")
 shutil.copyfile("./crystal-sphinx/temportal-engine/editor/bin/freetype/x86_64/freetype.dll", "./target/debug/freetype.dll")
@@ -24,6 +24,7 @@ os.chdir('tools')
 
 def download_tracy():
 	import requests
+	import patool
 	from pyunpack import Archive
 	if not os.path.isdir('Tracy'):
 		os.mkdir(os.path.join(os.getcwd(), 'Tracy'))
