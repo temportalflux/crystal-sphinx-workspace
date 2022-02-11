@@ -4,14 +4,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Setup",
-			"command": "python",
-			"args": [ "setup.py" ],
-			"group": "build",
-			"problemMatcher": []
-		},
-		{
-			"label": "Compile",
+			"label": "1. Compile",
 			"command": "cargo",
 			"args": [
 				"build", "--features", "debug"
@@ -20,7 +13,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Format",
+			"label": "2. Format",
 			"command": "cargo",
 			"args": [
 				"fmt"
@@ -29,7 +22,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Generate Docs",
+			"label": "3. Generate Docs",
 			"command": "cargo",
 			"args": [
 				"doc", "--document-private-items"
@@ -38,7 +31,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Open Docs",
+			"label": "4. Open Docs",
 			"command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
 			"args": [
 				"${workspaceFolder}/target/doc/temportal_engine/index.html"
@@ -47,7 +40,23 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Run Tests",
+			"label": "5. Setup",
+			"command": "python",
+			"args": [ "setup.py" ],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "6. Clean",
+			"command": "cargo",
+			"args": [
+				"clean"
+			],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "7. Run Tests",
 			"command": "cargo",
 			"args": [
 				"test"
@@ -55,7 +64,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Open Profiler",
+			"label": "8. Open Profiler",
 			"command": "powershell",
 			"args": ["./tools/Tracy/Tracy.exe"],
 			"problemMatcher": []
