@@ -17,6 +17,10 @@ members = [
 	"plugins/vanilla",
 	"game", "editor",
 ]
+exclude = [
+	"crystal-sphinx/temportal-engine/demo/chat-room/demo",
+	"crystal-sphinx/temportal-engine/demo/chat-room/editor",
+]
 default-members = [
 	"crystal-sphinx/temportal-engine/vulkan-rs/vulkan",
 	"crystal-sphinx/temportal-engine/vulkan-rs/derive",

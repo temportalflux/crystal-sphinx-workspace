@@ -78,7 +78,7 @@
 		},
 		{
 			"name": "Socknet",
-			"path": "crystal-sphinx/temportal-engine/socknet"
+			"path": "crystal-sphinx/crates/socknet"
 		},
 		{
 			"name": "Vulkan",
