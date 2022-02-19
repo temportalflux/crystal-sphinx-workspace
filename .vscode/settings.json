@@ -1,4 +1,5 @@
 {
 	"editor.insertSpaces": false,
-	"editor.tabSize": 2
+	"editor.tabSize": 2,
+	"chrome_path": "C:/Program Files/Google/Chrome/Application/chrome.exe"
 }

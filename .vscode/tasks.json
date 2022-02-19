@@ -32,7 +32,7 @@
 		},
 		{
 			"label": "4. Open Docs",
-			"command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+			"command": "${config:chrome_path}",
 			"args": [
 				"${workspaceFolder}/target/doc/temportal_engine/index.html"
 			],
