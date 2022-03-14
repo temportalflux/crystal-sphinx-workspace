@@ -1,5 +1,6 @@
-use crystal_sphinx::{plugin, run};
+use crystal_sphinx::{plugin::Config, Runtime};
 
 fn main() {
-	engine::run(|| run(plugin::Config::default().with(vanilla::Plugin::default())));
+	let plugins = Config::default().with(vanilla::Plugin::default());
+	engine::run(Runtime::new(plugins));
 }
