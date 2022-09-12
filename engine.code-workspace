@@ -101,8 +101,8 @@
 		"workspaceExplorer.workspaceStorageDirectory": "C:\\Workspaces\\rust",
 		"editor.tabSize": 2,
 		"explorer.sortOrder": "mixed",
-		"rust-analyzer.assist.importGranularity": "crate",
-		"rust-analyzer.assist.importPrefix": "crate",
-		"rust-analyzer.checkOnSave.enable": false
+		"rust-analyzer.checkOnSave.enable": false,
+		"rust-analyzer.imports.granularity.group": "crate",
+		"rust-analyzer.imports.prefix": "crate"
 	}
 }
