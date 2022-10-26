@@ -34,6 +34,24 @@
 				"cwd": "run"
 			},
 			"problemMatcher": []
+		},
+		{
+			"label": "Crystal Sphinx - Build Assets (Cleaned)",
+			"command": "cargo",
+			"args": [
+				"run",
+				"--bin",
+				"editor",
+				"--",
+				"-v",
+				"-build-assets",
+				"-package",
+				"-force"
+			],
+			"options": {
+				"cwd": "run"
+			},
+			"problemMatcher": []
 		}
 	]
 }
