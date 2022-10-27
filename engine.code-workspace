@@ -103,6 +103,7 @@
 		"explorer.sortOrder": "mixed",
 		"rust-analyzer.checkOnSave.enable": false,
 		"rust-analyzer.imports.granularity.group": "crate",
-		"rust-analyzer.imports.prefix": "crate"
+		"rust-analyzer.imports.prefix": "crate",
+		"task.autoDetect": "off"
 	}
 }
