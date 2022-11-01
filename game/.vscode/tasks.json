@@ -9,7 +9,7 @@
 			"args": [
 				"run",
 				"--bin", "game",
-				"--features", "debug",
+				"--features", "debug,rofile",
 				"--", "-v",
 				"-server", "-host_port=25565",
 				"-logid=server"
@@ -28,7 +28,7 @@
 			"args": [
 				"run",
 				"--bin", "game",
-				"--features", "debug",
+				"--features", "debug,profile",
 				"--", "-v",
 				"-client", "-client_port=25566",
 				"-user=alice_c",
@@ -48,7 +48,7 @@
 			"args": [
 				"run",
 				"--bin", "game",
-				"--features", "debug",
+				"--features", "debug,profile",
 				"--", "-v",
 				"-client", "-client_port=25567",
 				"-user=bob_c",

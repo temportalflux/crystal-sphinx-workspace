@@ -4,10 +4,19 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "1. Compile",
+			"label": "1. Compile (Debug + Profile)",
 			"command": "cargo",
 			"args": [
-				"build", "--features", "debug"
+				"build", "--features", "debug,profile"
+			],
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "1. Compile (No Features)",
+			"command": "cargo",
+			"args": [
+				"build"
 			],
 			"group": "build",
 			"problemMatcher": []
