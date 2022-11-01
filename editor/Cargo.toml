@@ -11,4 +11,4 @@ engine = { path = "../crystal-sphinx/temportal-engine/engine", package = "tempor
 crystal-sphinx = { path = "../crystal-sphinx/core" }
 crystal-sphinx-editor = { path = "../crystal-sphinx/editor" }
 vanilla = { path = "../plugins/vanilla" }
-tokio = "1.15"
+tokio = "1.21"
