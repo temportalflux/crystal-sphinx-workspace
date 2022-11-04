@@ -23,8 +23,7 @@
 			"command": "cargo",
 			"args": [
 				"run",
-				"--bin",
-				"editor",
+				"--bin", "editor",
 				"--",
 				"-v",
 				"-build-assets",
@@ -40,8 +39,7 @@
 			"command": "cargo",
 			"args": [
 				"run",
-				"--bin",
-				"editor",
+				"--bin", "editor",
 				"--",
 				"-v",
 				"-build-assets",
